@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+
+<body>
+    <%- include('./partials/navbar.ejs') %>
+    <!--start latest work section -->
+    <section id='latest-work' class="my-5">
+        <div class="container">
+            <div class="row py-5 my-5">
+                <!-- section nav -->
+                <div class="col-12 pt-5">
+                    <div class="latest-work-nav d-md-block d-lg-flex text-center justify-content-between">
+                        <h3 class="muted-heading">latest work</h3>
+                        <!-- latest work nav -->
+                        <ul class="p-0" id='work-nav'>
+                            <li data-link='all' isplay>all</li>
+                            <li data-link='web' class="active">web</li>
+                            <li data-link='mobile'>mobile</li>
+                            <li data-link='photography'>photography</li>
+                            <li data-link='design'>design</li>
+                            <li data-link='type'>type</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- latest work main content -->
+                <div class="col-12">
+                    <div class="row d-flex justify-content-around" id=work-content>
+                        <div class="col-md-4 web">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 web">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 web">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 mobile display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 mobile display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 photography display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 photography display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 photography display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 design display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 type display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+                        <div class=" col-md-4 type display-none">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end latest work section -->
+
+
+    <%- include('./partials/footer.ejs') %>
+
+    <%- include('./partials/scripts.ejs') %>
+
+</body>
+
+</html>

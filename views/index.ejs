@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs')  %>
+
+<body>
+    <!-- include the navbar -->
+    <%- include('./partials/navbar.ejs') %>
+
+    <!--start header section -->
+    <header id="header">
+        <div class="container mt-5">
+            <div class="row d-flex align-items-center justify-content-between  py-md-5 pb-5">
+                <div class=" col-sm-12 col-md-6 text-style">
+                    <h3 class="muted-heading">Creative Ideas Live Here</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Inventore eligendi
+                        non sunt consectetur
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="img-container">
+                        <img src="/images/display.png" class="img-fluid display" alt="display">
+                    </div>
+                </div>
+            </div>
+            <hr id=port>
+        </div>
+    </header>
+    <!--end header section -->
+
+
+    <!--start latest work section -->
+    <section id='latest-work'>
+        <div class="container">
+            <div class="row py-3">
+                <!-- section nav -->
+                <div class="col-12">
+                    <div class="latest-work-nav d-md-block d-lg-flex text-center justify-content-between">
+                        <h3 class="muted-heading">latest work</h3>
+                        <!-- latest work nav -->
+                        <ul class="p-0" id='work-nav'>
+                            <li type="button" class='filter' data-filter='all'>all</li>
+                            <li type="button" class='filter active' data-filter='.web'>web</li>
+                            <li type="button" class=filter' data-filter='.mobile'>mobile</li>
+                            <li type="button" class=filter' data-filter='.photography'>photography</li>
+                            <li type="button" class=filter' data-filter='.design'>design</li>
+                            <li type="button" class=filter' data-filter='.type'>type</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- latest work main content -->
+                <div class="col-12">
+                    <div class="row d-flex justify-content-around" id=work-content>
+                        <div class="col-md-4 col-lg-3 mix web">
+                            <div class="work-img">
+                                <a href="/portfolio/resturant-project" target="_blank">
+                                    <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 mix web">
+                            <div class="work-img">
+                                <a href="/portfolio/portfolio-project" target="_blank">
+                                    <img src="/images/portfolio-2.png" class='img-fluid' alt="portfolio">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 mix web">
+                            <div class="work-img">
+                                <a href="/portfolio/hospital" target="_blank">
+                                    <img src="/images/portfolio-3.png" class='img-fluid' alt="portfolio">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 mobile  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 mobile  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 photography  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 photography mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 photography  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 design  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 type  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+                        <div class=" col-md-4 col-lg-3 type  mix">
+                            <div class="work-img">
+                                <img src="/images/portfolio-1.png" class='img-fluid' alt="portfolio">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!--end latest work section -->
+
+
+    <!--start our services -->
+    <section id='our-services'>
+        <div class="container">
+            <div class="row py-4">
+                <!-- services heading and pargraph -->
+                <div class="col-12 d-md-block d-lg-flex justify-content-between mt-4 mb-5 text-center">
+                    <h3 class="muted-heading">our services</h3>
+                    <p class="shrink-paragraph text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                        qui nisi
+                        porro? Magni, illo minus est
+                        ducimus quam ratione quae</p>
+                </div>
+
+                <!-- sevices content -->
+                <div class="col-12">
+                    <div class="row services-imgs">
+                        <div class="col-12 col-md-4">
+                            <img src="/images/service-display.png" alt="#">
+                            <h4>flat design</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reprehenderit eligendi
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="/images/bulb.png" alt="#">
+                            <h4>great ideas</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reprehenderit eligendi
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="/images/browser-compatbilty.png" alt="#">
+                            <h4>browser compatbilty</h4>
+                            <p>Lorem ipsum doslor, sit amset consectetur adipisicing elit. Eaque reprehenderit eligendi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!--end our services -->
+
+    <!-- start testimonials -->
+    <section id='testimonials'>
+        <div class="container position-relative">
+            <div class="column">
+                <div class="title mb-5">
+                    <h1 class="muted-heading">What clients
+                        <span>Feedback about me</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="clients">
+                <!-- first client -->
+                <div class='client display-none'>
+                    <!-- clients box -->
+                    <figure class="client-box">
+                        <div class="circle-div">
+                            <img src="/images/client-1.png" alt="Client">
+                        </div>
+                        <h4>Allen Bell</h4>
+                        <figcaption>Ux Designer</figcaption>
+                    </figure>
+                    <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet
+                        on a
+                        lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new
+                        worlds to
+                        seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our
+                        way.
+                    </p>
+                </div>
+
+                <div class='client'>
+                    <!-- clients box -->
+                    <figure class="client-box">
+                        <div class="circle-div">
+                            <img src="/images/client-1.png" alt="Client">
+                        </div>
+                        <h4>Bell</h4>
+                        <figcaption>Web Developer</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore architecto dolorum sed maxime
+                        alias
+                        voluptatibus consectetur rerum possimus quas necessitatibus et voluptatem nulla obcaecati
+                        voluptate
+                        reiciendis, aspernatur accusantium, hic fuga?.</p>
+                </div>
+
+                <div class='client display-none'>
+                    <!-- clients box -->
+                    <figure class="client-box">
+                        <div class="circle-div">
+                            <img src="/images/client-1.png" alt="Client">
+                        </div>
+                        <h4>Allen</h4>
+                        <figcaption>Backend Developer</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti error, velit atque
+                        provident
+                        nemo
+                        voluptatem sapiente nobis, dolores ipsa eos iusto itaque maxime iste possimus cupiditate
+                        inventore
+                        rerum
+                        optio?.</p>
+                </div>
+                <!-- Next/prev buttons -->
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+
+
+            <!-- bullets -->
+            <div class="bullets">
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonials -->
+
+    <!-- include footer -->
+    <%- include('./partials/footer.ejs') %>
+
+    <!-- include all javascripts -->
+    <%- include('./partials/scripts.ejs') %>
+</body>
+
+</html>

@@ -1,0 +1,647 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #6a6a6a;
+}
+
+/*start top header*/
+header {
+    overflow: hidden;
+}
+
+header .icon {
+    background: #1a9bdc;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    padding: 15px 17px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+header h6 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 12px;
+}
+
+header .icons {
+    position: relative;
+    left: 10%;
+    padding: 0;
+
+}
+
+header .icons .text {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+header hr {
+    border-top: 2px solid rgba(0, 0, 0, .1)
+}
+
+/*start navbar*/
+nav .nav-link {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+nav .fab {
+    margin: 10px;
+    font-size: 18px;
+    color: #000;
+}
+
+nav .brand-2 {
+    display: none;
+}
+
+nav .social .fab:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------*/
+
+/*main-banner*/
+#main-banner {
+    background: url(/images/hospital/header.jpg);
+    background-size: cover;
+    padding: 13% 0;
+    background-position: center center;
+    width: 100%;
+}
+
+#main-banner h1 {
+    font-size: 3rem;
+    color: #474747;
+}
+
+#main-banner p {
+    padding: 15px 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #1a9bdc;
+    box-shadow: 1px 2px 10px grey;
+}
+
+/*------------------------------------------------------------------*/
+
+/*start services*/
+#services .one,
+.two,
+.three,
+.four {
+    padding: 50px 20px 30px;
+    color: #fff;
+}
+
+#services .one {
+    background-color: #43b1d2;
+}
+
+#services .two {
+    background-color: #3fb6c6;
+}
+
+#services .three {
+    background-color: #3cbbbb;
+}
+
+#services .four {
+    background-color: #37c3a8;
+}
+
+#services .rounded-circle {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px
+}
+
+#services .text {
+    margin: 6% 14%;
+}
+
+#services .text h3 {
+    font-weight: 500;
+}
+
+/*------------------------------------------------------------------*/
+
+/*start why choose us*/
+#why {
+    padding: 20px 0 0;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+#why .text {
+    padding: 0 40px;
+    margin-bottom: 40px
+}
+
+#why .text h1 {
+    font-weight: 700;
+    color: #494949;
+    margin-bottom: 20px
+}
+
+#why .why-info h3 {
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+#why .why-info img {
+    margin-right: 20px
+}
+
+#why .why-info {
+    margin: 4% 0
+}
+
+#why .girl {
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*------------------------------------------------------------------*/
+
+/*best features*/
+#features {
+    background: url(/images/hospital/best.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    padding: 160px 0;
+    color: #fff;
+}
+
+#features img {
+    height: 30%;
+    width: 30%;
+}
+
+#features .best h1 {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#features .best h4 {
+    padding: 0 50px
+}
+
+#features .hr-1 {
+    width: 30%;
+    border-top: 5px solid #fff;
+}
+
+/*------------------------------------------------------------------*/
+
+/*start text-area*/
+#text-area {
+    padding: 60px 0;
+}
+
+#text-area h1 {
+    font-weight: 700;
+    margin: 20px 0;
+    color: #494949;
+}
+
+#text-area p {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    color: #6a6a6a;
+}
+
+#text-area img {
+    width: 90%;
+    height: 50%;
+}
+
+#text-area h5 {
+    margin-top: 20px;
+}
+
+#text-area span {
+    color: #67aacf;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#text-area .btn-primary {
+    font-size: 15px;
+    margin: 20px 26%;
+}
+
+#text-area .acordion {
+    background-color: #e2e2e2;
+    padding: 6px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+
+#text-area .acordion h4 {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#text-area .fa-caret-right {
+    background-color: #fff;
+    padding: 9px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0087be
+}
+
+#text-area .hide {
+    display: none;
+}
+
+#text-area .active {
+    background-color: #0087be;
+    color: #fff;
+}
+
+/*------------------------------------------------------------------*/
+
+/*start gallery*/
+#gallery {
+    background: url(/images/hospital/galerry.jpg);
+    background-size: cover;
+    background-position: center right;
+    color: #fff;
+    padding: 70px 0;
+}
+
+#gallery img {
+    width: 100%;
+    height: 90%;
+    transition: all 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+    z-index: 1
+}
+
+/*------------------------------------------------------------------*/
+
+/*start our team*/
+#team {
+    padding: 110px 50px;
+}
+
+#team h4 {
+    font-weight: 500;
+}
+
+#team img {
+    width: 100%;
+    margin: 30px 0;
+    transition: all 0.3s ease;
+}
+
+#team img:hover {
+    transform: scale(1.1);
+}
+
+#team span {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+#team .social .fab {
+    font-size: 25px;
+    color: #0087be;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------*/
+
+/*star quick action bar*/
+#quick {
+    background-color: #e2e2e2;
+    padding: 5% 0
+}
+
+#quick h2 {
+    margin-right: 7%;
+    display: inline-block;
+    color: #494949;
+    font-weight: 700;
+}
+
+#quick .btn-primary {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+/*------------------------------------------------------------------*/
+
+/*start footer*/
+footer {
+    background-color: #171717;
+    font-weight: 600;
+    padding: 5% 0;
+}
+
+footer h4 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+footer .touch .icon {
+    font-size: 35px;
+    margin: 5px 50px 0 0;
+    width: 5%
+}
+
+footer .touch {
+    margin-bottom: 20%;
+    color: #8e8e8e;
+}
+
+footer .touch p {
+    display: inline-block;
+    margin: 0;
+}
+
+footer .social .fab {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+footer .social .fab:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+footer .quick a {
+    display: block;
+    color: #8e8e8e;
+    text-decoration: none;
+    margin-bottom: 15px
+}
+
+footer .quick .fas {
+    color: #0087be;
+    margin: 0 20px 0 80px;
+
+}
+
+footer .quick h4 {
+    margin-left: 25%
+}
+
+footer form input {
+    background-color: transparent;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px solid #8e8e8e;
+    padding: 5px;
+    color: #fff
+}
+
+footer form input:last-of-type {
+    padding-bottom: 70px
+}
+
+footer .btn-primary {
+    margin-right: 19%;
+    padding: 4px 29px
+}
+
+footer h4:nth-child() {
+    color: red
+}
+
+/*----------------------------------------------------------------------*/
+
+/*responsive media query*/
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    footer .quick .fas {
+        margin: 0 20px 0 40px;
+    }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    #main-banner h1 {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+    }
+
+    #services .text h3 {
+        font-size: 1.5rem;
+    }
+
+    #services .text p {
+        font-size: 13px;
+    }
+
+    #why .why-info img {
+        float: none !important;
+    }
+
+    #why .why-info {
+        text-align: center;
+    }
+
+    #features .best h4 {
+        padding: 0
+    }
+
+    #features .best {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+
+    #features img {
+        width: 30%;
+    }
+
+    #text-area {
+        text-align: center;
+    }
+
+    #text-area div:nth-child(5) {
+        text-align: left
+    }
+
+    #team img {
+        width: 85%;
+    }
+
+    #quick h2 {
+        font-size: 1rem;
+    }
+
+    #quick .btn-primary {
+        font-size: 14px;
+    }
+
+    footer .social {
+        margin-bottom: 30px;
+    }
+
+    footer .quick .fas {
+        margin: 0 20px 0 80px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+/*copyright section*/
+.copyright {
+    background-color: #1a1a1a;
+    color: #594d4d;
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) {
+    nav .brand-2 {
+        display: inline;
+    }
+
+    nav .social {
+        display: none;
+    }
+
+    header .brand-1 {
+        display: none
+    }
+
+    header .icons {
+        left: 4%
+    }
+
+    #main-banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-primary {
+        font-size: 13px;
+    }
+
+    #why .girl {
+        display: none;
+    }
+
+    #why h1 {
+        font-size: 2rem;
+    }
+
+    #why p {
+        font-size: 14px;
+        padding: 0 16%;
+    }
+
+    #why .text p {
+        padding: 0
+    }
+
+    #features img {
+        width: 20%
+    }
+
+    #gallery img {
+        width: 80%;
+        height: 85%;
+    }
+
+    #text-area img {
+        width: 65%;
+    }
+
+    #team img {
+        width: 65%;
+    }
+
+    footer input {
+        display: block;
+        margin: auto;
+    }
+
+    footer .btn-primary {
+        margin: 0
+    }
+
+    footer .touch p {
+        display: block;
+    }
+
+    footer .quick h4 {
+        margin-left: 0;
+    }
+
+    footer .quick .fas {
+        margin: 0 20px 0 0;
+    }
+
+    footer .quick {
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 2px solid
+    }
+
+    footer .get-in {
+        text-align: center;
+        border-bottom: 2px solid;
+        margin-bottom: 20px;
+    }
+
+    footer .touch .icon {
+        margin: 0;
+        width: inherit;
+        float: none !important
+    }
+
+}
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+    #text-area .btn-primary {
+        margin: 20px 32%;
+    }
+
+    #team h1 {
+        font-size: 2rem;
+    }
+
+    #team p {
+        font-size: 15px;
+    }
+}
