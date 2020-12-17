@@ -10,7 +10,7 @@ const {
 // init express <3
 const app = express();
 const log = console.log;
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 3005
 app.post('/webhook', (req, res) => {
     console.log(req, res)
     res.send('ok')
