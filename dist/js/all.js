@@ -1,6 +1,10 @@
 'use strict';
 $(document).ready(() => {
 
+   
+        $('.loading-spinn').fadeOut(500);
+        $(' html, body').css({overflow: 'auto'});
+
     // * ----------start navbar click event------------------ *
     // $('#navbarNav ul li a').click(() => {
     //     $('li a').removeClass('active');
