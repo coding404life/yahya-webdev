@@ -310,9 +310,9 @@ footer h4 {
     width: 90px;
     overflow: hidden;
     height: 90px;
-    border: 4px solid #fff
+    box-shadow: 1px 3px 13px 0px #212529;
+    border: 4px solid #dee2e6;
 }
-
 #testimonials .client-box .circle-div img {
     -o-object-position: -10px 0;
     object-position: -10px 0;
