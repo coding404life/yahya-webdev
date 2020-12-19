@@ -1,5 +1,10 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@300;500&display=swap";
 
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
@@ -808,4 +813,20 @@ footer .copyrights {
     }
 }
 
+/* loader spinner */
+
+.loading-spinn {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #5dbcc3;
+    top: 0;
+    z-index: 2000;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* loader spinner */
 /*# sourceMappingURL=portfolio-styles.css.map */

@@ -1,9 +1,12 @@
 'use strict';
 $(document).ready(() => {
 
-   
-        $('.loading-spinn').fadeOut(500);
-        $(' html, body').css({overflow: 'auto'});
+    //scroll to the top fade the robot and make scroll auto
+    $(this).scrollTop(0);
+    $('.loading-spinn').fadeOut(500);
+    $(' html, body').css({
+        overflow: 'auto'
+    });
 
     // * ----------start navbar click event------------------ *
     // $('#navbarNav ul li a').click(() => {

@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 body {
@@ -311,4 +312,20 @@ footer .footer-icons a {
   margin-right: 1rem;
 }
 
+/* loader spinner */
+
+.loading-spinn {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #5dbcc3;
+  top: 0;
+  z-index: 2000;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* loader spinner */
 /*# sourceMappingURL=resturant-style.css.map */

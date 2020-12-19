@@ -1,4 +1,13 @@
 'use strict';
+$(document).ready(() => {
+
+    //scroll to the top fade the robot and make scroll auto
+    $(this).scrollTop(0);
+    $('.loading-spinn').fadeOut(500);
+    $(' html, body').css({
+        overflow: 'auto'
+    });
+});
 let clientIndex = 1;
 
 slide(clientIndex);
