@@ -3,10 +3,13 @@ $(document).ready(() => {
 
     //scroll to the top fade the robot and make scroll auto
     $(this).scrollTop(0);
-    $('.loading-spinn').fadeOut(500);
-    $(' html, body').css({
-        overflow: 'auto'
-    });
+    setTimeout(() => {
+        $('.loading-spinn').fadeOut('slow');
+        $(' html, body').css({
+            overflow: 'auto'
+        });
+    }, 1000)
+
 
     // * ----------start navbar click event------------------ *
     // $('#navbarNav ul li a').click(() => {
@@ -126,4 +129,6 @@ $(document).ready(() => {
     });
     // * -------------end- contact form---------------- *
 
+    // init wow.js 
+    new WOW().init();
 });
