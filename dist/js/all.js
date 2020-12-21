@@ -42,7 +42,11 @@ $(document).ready(() => {
     //triger mixitup 
     var containerEl = document.querySelector('#work-content');
 
-    var mixer = containerEl ? mixitup(containerEl) : null
+    var mixer = containerEl ? mixitup(containerEl, {
+        selectors: {
+            control: '[data-mixitup-control]'
+        }
+    }) : null
 
     //add a class active to the nav link and remove from others
     $('#work-nav li').click(function () {
