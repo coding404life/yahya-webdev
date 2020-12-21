@@ -67,7 +67,7 @@ app.get('/portfolio/hospital', (req, res) => {
 // end render portfolio pages *********
 
 //email contact form
-app.post('/email', (req, res) => {
+app.post('/emailSent', (req, res) => {
     // todo:
     //send email here
     const {
@@ -88,7 +88,10 @@ app.post('/email', (req, res) => {
             });
         }
     });
-   
+
+});
+app.get('/sent', (req, res) => {
+    res.render('mailsent');
 });
 
 // render 404 page

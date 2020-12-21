@@ -38,15 +38,6 @@ $(document).ready(() => {
     // 1- when clicking on nav link show  content and hide content dosent have specefic class name
     $('#work-content').children().not('.web').hide();
 
-    // $(".gallery-button").click(function () {
-    //     var value = $(this).attr("data-filter");
-    //     if (value == "all") {
-    //         $(".mix").show("1000");
-    //     } else {
-    //         $(".mix").not("." + value).hide('1000');
-    //         $(".mix").filter("." + value).show('1000');
-    //     }
-    // });
 
     //triger mixitup 
     var containerEl = document.querySelector('#work-content');
@@ -122,10 +113,10 @@ $(document).ready(() => {
             text
         }
 
-        $.post('/email', data, () => {
+        $.post('/emailSent', data, () => {
             console.log('server recived our data');
         });
-
+        location.href = 'sent'
     });
     // * -------------end- contact form---------------- *
 

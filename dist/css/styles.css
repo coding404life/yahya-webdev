@@ -202,7 +202,7 @@ footer h4 {
 
 @media (max-width:769px) {
     #latest-work .work-img img {
-        max-height: 22em
+        max-height: 35em
     }
 }
 
@@ -313,6 +313,7 @@ footer h4 {
     box-shadow: 1px 3px 13px 0px #212529;
     border: 4px solid #dee2e6;
 }
+
 #testimonials .client-box .circle-div img {
     -o-object-position: -10px 0;
     object-position: -10px 0;
@@ -460,22 +461,25 @@ footer h4 {
 
 /* loader spinner */
 
- .loading-spinn{
+.loading-spinn {
     width: 100%;
     position: absolute;
     height: 100%;
     background-color: #5dbcc3;
     top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     z-index: 2000;
-    overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* loader spinner */
-.min-height{
+.min-height {
     min-height: 66vh;
     margin-top: 7em;
 }
+
 /*# sourceMappingURL=styles.css.map */
